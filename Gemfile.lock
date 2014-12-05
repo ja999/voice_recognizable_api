@@ -35,9 +35,13 @@ GEM
     arel (5.0.1.20140414130214)
     bcrypt (3.1.9-java)
     builder (3.2.2)
+    diarize-jruby (0.2.1-java)
+      jblas-ruby
+      to-rdf
     erubis (2.7.0)
     hike (1.2.3)
     i18n (0.6.11)
+    jblas-ruby (1.1.1)
     jdbc-sqlite3 (3.8.7)
     json (1.8.1-java)
     mail (2.6.3)
@@ -76,6 +80,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4-java)
     tilt (1.4.1)
+    to-rdf (0.0.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
 
@@ -85,4 +90,5 @@ PLATFORMS
 DEPENDENCIES
   activerecord-jdbcsqlite3-adapter
   bcrypt (~> 3.1.7)
+  diarize-jruby
   rails (= 4.1.8)
